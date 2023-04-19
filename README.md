@@ -77,9 +77,12 @@ The dataset is from Vehicle Insurance company. The data set includes over 381109
 
 
 For further information you can check the google colab file added in the repository.
+
 If you find any mistakes or have any suggestions for me, please reach out to me, all the criticism is heartly welcomed.
+
 You can also reach out to me for project collaborations.
-My Email Id - 'khochareprathamesh10@gmail.com'
+
+My Email Id - khochareprathamesh10@gmail.com
 
 
 <details>
