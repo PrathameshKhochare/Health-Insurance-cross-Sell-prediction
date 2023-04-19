@@ -1,14 +1,38 @@
 # Health-Insurance-cross-Sell-prediction
 This is a note book of cross selling of health insurance customers on vehicle insurance product and using machine learning to predict whether a customer is interested or not in vehicle insurance.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061900-08233bb6-ad5b-45bf-b4d3-9b185a3058b0.png)
 
 # Background Information :
 An Insurance company that provide Health Insurance to its customers,the company wants to know if its customers from the previous year would also be interested in purchasing vehicle insurance from them.In this case we will build a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061921-61635004-cb22-4b5a-93ac-c967cbfbaa50.png)
 
 # Problem Statement:
 * To improve the customer reach-out process, the insurance company wants to optimize its sales approach. Currently, many insurance workers spend a considerable amount of time meeting with prospective clients without any knowledge of the likelihood of the customer buying an insurance product. Therefore, the company wants to develop a model that can accurately predict the probability of a customer buying an insurance product, which would help the insurance workers to focus their efforts on the customers who are most likely to purchase a policy. This would ultimately save time and increase the efficiency of the sales process.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061935-75467160-e094-4659-9427-e67f32cb6c9c.png)
+
+# Dataset
+The dataset is from Vehicle Insurance company. The data set includes over 381109 records and 12 attributes based on historical usage patterns.For more information on the dataset, please visit the Kaggle website at 
+"https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction"
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061942-0ac2289c-1cea-40ba-8215-dd413793e527.png)
+
+# Dataset description:
+* ID: Unique identifier for the Customer.
+* Age: Age of the Customer.
+* Gender: Gender of the Customer.
+* Driving_License: 0 for customer not having DL, 1 for customer having DL.
+* Region_Code: Unique code for the region of the customer.
+* Previously_Insured: 0 for customer not having vehicle insurance, 1 for customer having vehicle insurance.
+* Vehicle_Age: Age of the vehicle.
+* Vehicle_Damage: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+* Annual_Premium: The amount customer needs to pay as premium in the year.
+* Policy_Sales_Channel: Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+* Vintage: Number of Days, Customer has been associated with the company.
+* Response (Dependent Feature): 1 for Customer is interested, 0 for Customer is not interested.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061954-8cd76997-1939-45ff-b305-0adb29bb1839.png)
 
 # Business Goals: 
 * Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061964-e21a1b8e-e5b8-4dbd-a4c5-ef280cdae221.png)
 
 # Workflow :
 * Initial preparations(Loading the dependencies and the data)
@@ -49,6 +73,7 @@ An Insurance company that provide Health Insurance to its customers,the company 
 * Model explainability
     * SHAP
 8. Conclusion
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061996-4be90f22-f04e-43e1-92f0-b66024e36d16.png)
 
 <details>
 <summary>Click to see the conclusion and recommendation</summary>
@@ -89,6 +114,7 @@ Conclusions drawn from ML Model -:
 * Implimented 6 classification ML Models Logistic Regression, Random forest, XGboost, Naive Bayes, KNN and SVM in our analysis.
 * Considered Naive_bayes as our final optimal model as we are getting highest recall(96%), f1 score(81%), accuracy(78%) and auc-roc(84%) from it.
 * Age, sex and pulse pressure are the** highest contributing features** towards the predictions.
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233062015-ba1e7f39-2d37-46bd-89ed-b97a2b6085ec.png)
  
     
 # Recommendation
