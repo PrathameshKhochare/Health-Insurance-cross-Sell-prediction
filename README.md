@@ -54,7 +54,7 @@ An Insurance company that provide Health Insurance to its customers,the company 
 <summary>Click to see the conclusion and recommendation</summary>
 <br>
 
-## Conclusion: 
+# Conclusion: 
 Conclusions drawn from EDA  -:
 1. From this dataset of health insurance, **Only 12 percent** of people are interested in Vehicle Insurance.
 2. **Almost 96%**(53-> between 1-2 Year + 43 -> less than 1 Year) of customers have a vehicle age that's **less than 2 years.** from our analysis, customers who has more than 2 years of vehicle age are more interested with vehicle insurance advertisment, while customers who has **less then one year** of vehicle age, **only 4%** of them are actually interesred with vehicle insurance.
@@ -83,3 +83,26 @@ From the responses there are **12 % of our health insurance customers are intere
 **Which Customer Generation that's most likely to be interested in Vehicle insurance ?**
  
  our analysis shows that **Middle age** has the highest percentage to be intersteed with vehicle insurance, to be precise, **20.03 %** of GEN X are interested with vehicle insurance, this might be because **71% Middle age** people does not have a vehicle insurace, and Middle age has the highest percentage of vehicle damager the past **(67%)** among other generation.
+
+    
+Conclusions drawn from ML Model -:
+* Implimented 6 classification ML Models Logistic Regression, Random forest, XGboost, Naive Bayes, KNN and SVM in our analysis.
+* Considered Naive_bayes as our final optimal model as we are getting highest recall(96%), f1 score(81%), accuracy(78%) and auc-roc(84%) from it.
+* Age, sex and pulse pressure are the** highest contributing features** towards the predictions.
+ 
+    
+# Recommendation
+
+1. Work with dealership to capture millenial market
+as we know from the analysis that millenials are less likely to be intersted with vehicle insurance because of most of them have a vehicle that's less than one year of age, and vehicle with less then one year of age are most likely to be insured so in conclution they already have one, and so they're not interested. By working together with a dealership that sells a brand new car, we could tackle this problem, our insurance company could have a bundling product of brand new vehicle and a free promotional vehicle insurance for certain period of months. we hope that by working together with vehicle dealership we could target more millenials customers.
+
+2. Target & Educate Customers Who had Vehicle Damage in the past
+95% customers who have had a vehicle damaged in the past still does not have a vehicle insurance this is a gold mine for our vehicle insurance, since customers are more likely to be interested in vehicle insurance if they've a vehicle damage in the past.
+
+we could to a targeted marketing to this customers, by showing the benefits of having a vehicle insurance and how it will protect you if you ever had a vehicle damaged in the future
+
+3. Benfits for customer who has a vehicle that's more than 2 years
+having an older vehicle means having more problem compared to newer vehicle, problems like overheating, radiator problem and, etc are common with older cars, fixing those kind of stuff could be costly or having problem like that in the middle of a road could be troublesome. Since only less than one percent of customer who's actually owned car that's older than 2 years and insured, we could focus more on the problems that car over two years might have and the pain point of customers that owned older car and we should construct the benefits on those pain points, since customer with vehicle age over 2 years are the most likely to be intersted with vehicle insurance
+
+4. Use Machine Learning Algorith to have predict the response outcome of a customer
+Using the Logistic regression machine learning that has recall of 96.5 % will speed up and find out which customer who actually intersted in vehicle insurance, and we could focus our resource just based on the customers that's interested    
