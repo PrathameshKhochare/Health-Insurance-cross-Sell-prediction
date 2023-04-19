@@ -73,7 +73,7 @@ The dataset is from Vehicle Insurance company. The data set includes over 381109
 * Model explainability
     * SHAP
 8. Conclusion
-9. ![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061996-4be90f22-f04e-43e1-92f0-b66024e36d16.png)
+![228839831-fb6d6085-eee8-46f9-abfa-223e564d5dae](https://user-images.githubusercontent.com/121234763/233061996-4be90f22-f04e-43e1-92f0-b66024e36d16.png)
 
 
 For further information you can check the google colab file added in the repository.
